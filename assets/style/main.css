@@ -6,6 +6,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-color: rgb(99, 55, 18);
 }
 
 nav {
@@ -37,4 +38,67 @@ nav .logo {
 
 #connexion {
 	font-family: font1;
+}
+
+.bvn {
+	font-family: font1;
+	text-align: center;
+	color: white;
+	min-height: 90vh;
+
+}
+
+.bvn img {
+	max-width: 55%;
+	float: left;
+	margin-left: 100px;
+	border: 10px solid rgb(201, 116, 46);
+	border-radius: 5px;
+}
+.bvn li {
+	font-size: 2em;
+	list-style-type: none;
+}
+
+.bvn h2 {
+	margin-top: 50px;
+	font-size: 3em;
+}
+
+.bvn h1 {
+	font-size: 3em;
+}
+.bvn hr {
+	width: 300px;
+}
+
+footer {
+	font-size: 1em;
+	font-family: font1;
+	color: white;
+	text-align: center;
+}
+.tosmall {
+	margin-top: 10%;
+}
+.medium {
+	margin-top: 5%;
+}
+.images h1 {
+	font-family: font1;
+	color: white;
+	padding: 1%;
+}
+
+.images img {
+
+	margin: 10px;
+		border: 10px solid rgb(201, 116, 46);
+	border-radius: 5px;
+	max-width: 20%;
+	max-height: 255px;
+
+}
+ul {
+	margin-bottom: 50px;
 }

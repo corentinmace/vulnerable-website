@@ -9,6 +9,8 @@
 	<header>
 		<?php include 'assets/redir/navbar.php' ?>
 	</header>
+	<main>
+		<div class="bvn">
 		<div id="Connection">
 				<h1>Connexion</h1>
 			<form action="assets/php/traitement.php" method="post">
@@ -31,6 +33,11 @@
 				<input type="submit" name="" value="Inscription">
 			</form>
 		</div>
-
+	</div>
+	</main>
+	<footer>
+		<hr>
+		<p>Copyright &copy; La Cuisine de ta mère | All Right Reversed</p>
+	</footer>
 	</body>
 </html>
